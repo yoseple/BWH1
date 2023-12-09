@@ -216,7 +216,6 @@ soupsieve==2.5
 stack-data==0.6.3
 starlette==0.27.0
 streamlit==1.29.0
-Surface-Distance-Based-Measures @ file:///Users/yoseple/Documents/BWH1/TotalSegmentator/surface-distance
 sympy==1.12
 synchronicity==0.5.3
 tabulate==0.9.0
