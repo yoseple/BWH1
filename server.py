@@ -56,7 +56,13 @@ def final_page(result_file_name):
 @app.route('/download/<file_name>')
 def download_file(file_name):
     file_path = os.path.join(output_dir, file_name)
-    return send_file(file_path, as_attachment=True, download_name=file_name)
+    if os.path.exists(file_path):
+        app.logger.info(f"Sending file: {file_path}")
+        return send_file(file_path, as_attachment=True, download_name=file_name)
+    else:
+        app.logger.error(f"File not found: {file_path}")
+        return "File not found", 404
+
 
 if __name__ == '__main__':
     app.run(debug=True)
