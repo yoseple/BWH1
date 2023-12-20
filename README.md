@@ -12,9 +12,7 @@ How it works:
 5. Can download the .obj file or upload to the THREE.JS viewer
 6. THREE.JS viewer shows the kinematics of the spine. 
 
-
-
-
+Tech used: C, THREE.JS, HTML&CSS, TotalSegmentator, IVDNET.
 
 
 
