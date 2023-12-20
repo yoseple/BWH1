@@ -5,8 +5,12 @@ the file undergoes a conversion from nii.gz to .obj format. The result can then 
 Three.js.
 
 How it works:
-Using the Verse Dataset which has all the 
-
+1. Upload NIFTI file of ct scan
+2. Segmentation Process (Totalsegmentator vertebrae_body subtask) 
+3. Download the NIFTI file of segmented file
+4. Upload to NIFTI -> .OBJ conversion (Uses marching algo)
+5. Can download the .obj file or upload to the THREE.JS viewer
+6. THREE.JS viewer shows the kinematics of the spine. 
 
 
 
