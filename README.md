@@ -14,6 +14,10 @@ Three.js.
 ```
 git clone https://github.com/yoseple/cs460final
 ```
+### Dependencies Needed
+```
+pip install TotalSegmentator flask
+```
 
 
 ## How it works and how to use:
