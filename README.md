@@ -1,4 +1,4 @@
-#BWH1-Spine - Segmentation Pipeline of the Spine 
+# BWH1-Spine - Segmentation Pipeline of the Spine 
 
 ## Background
 The BWH1- Spine Simulation project is a research-based initiative that focuses on developing a software tool capable of simulating the lower lumbar spine. The tool can be accessed through an online platform or downloaded locally. The project relies on a reliable open-source Segmentation Source that provides a database of CT scans of real-life patients' spines for accurate 3D modeling.
