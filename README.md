@@ -1,10 +1,22 @@
-Project Overview:
+#BWH1-Spine - Segmentation Pipeline of the Spine 
+
+## Background
+The BWH1- Spine Simulation project is a research-based initiative that focuses on developing a software tool capable of simulating the lower lumbar spine. The tool can be accessed through an online platform or downloaded locally. The project relies on a reliable open-source Segmentation Source that provides a database of CT scans of real-life patients' spines for accurate 3D modeling.
+
+## Project Overview:
 
 A pipeline where you can upload a CT scan in NIfTI format (nii.gz file), which then segments the lower lumbar region of the scan. This process includes the segmentation of the disks within the scan. Following segmentation, 
 the file undergoes a conversion from nii.gz to .obj format. The result can then be viewed in a 3D plane using the Three.js Model Viewer. With this pipeline, you have the option to either download the .obj file or view it using
 Three.js.
 
-How it works:
+## Install and run BWH1 Tool:
+### Clone this repository with:
+```
+git clone https://github.com/yoseple/cs460final
+```
+
+
+## How it works and how to use:
 1. Upload NIFTI file of ct scan
 2. Segmentation Process (Totalsegmentator vertebrae_body subtask) 
 3. Download the NIFTI file of segmented file
@@ -12,7 +24,9 @@ How it works:
 5. Can download the .obj file or upload to the THREE.JS viewer
 6. THREE.JS viewer shows the kinematics of the spine. 
 
-Tech used: C, THREE.JS, HTML&CSS, TotalSegmentator, IVDNET, FLASK, PYTHON
+```
+ Tech used: C, THREE.JS, HTML&CSS, TotalSegmentator, IVDNET, FLASK, PYTHON
+```
 
 
 
@@ -24,8 +38,7 @@ Tech used: C, THREE.JS, HTML&CSS, TotalSegmentator, IVDNET, FLASK, PYTHON
 
 
 
-
-Sources used: 
+## Sources used: 
   Dolz J, Desrosiers C, Ben Ayed I. IVD-Net: Intervertebral disc localization and segmentation in MRI with a multi-modal UNet. arXiv preprint arXiv:1811.08305. 2018 Nov 19.
 
   Sekuboyina A et al., VerSe: A Vertebrae Labelling and Segmentation Benchmark for Multi-detector CT Images, 2021.
