@@ -18,6 +18,10 @@ git clone https://github.com/yoseple/cs460final
 ```
 pip install TotalSegmentator flask
 ```
+### To run, use the following command:
+```
+python3 server.py
+```
 
 
 ## How it works and how to use:
