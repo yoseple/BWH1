@@ -402,7 +402,7 @@ function getFloat(id) {
 
 <body>
     <div class ="container">
-    <h3>NIfTI to Mesh conversion <a href="https://rordenlab.github.io/nii2meshWeb/bet.nii.gz"></a></h3>
+    <h3>NIfTI to Mesh conversion</h3>
 
 <div class="content">
     <div id="dragAndDrop"
@@ -411,12 +411,11 @@ function getFloat(id) {
          ondrop="event.stopPropagation(); event.preventDefault();
          dodrop(event);">
         <ol>
-            <!-- <li>Drop a NIfTI file to segment the ct scan <input type="file" onChange="uploaded()" id="fileuploadform"/></li> -->
             <li>Drag and drop NIfTI file here or <input type="file" onChange="uploaded()" id="fileuploadform"/></li>
 
             
 
-                    <li style="display: none;"><a href="https://github.com/neurolabusc/nii2mesh">Options:</a>
+                    <li style="display: none;">Options:</a>
                         <div class="col">
                             <div class="inset-row">
                                 <p>Isolevel &nbsp;</p>&nbsp;
@@ -484,15 +483,12 @@ function getFloat(id) {
     </div>
 		<div>OBJ Viewer -  Below</div>
 		<div>
-			<!-- <input type="file" id="obj-file" accept=".obj"> -->
-			<!-- <button type="button" id="btn-upload" onclick="uploadData()" disabled=True>Upload OBJ</button>
-			<button type="button" id="btn-default" onclick="useDefaultData()" disabled=True>Try Default OBJ</button> -->
 			<span id="stats"></span>
 		</div>
 		<div>
 			<span id="vertex-cnt"></span> &nbsp;&nbsp; <span id="face-cnt"></span>
 		</div>
-        <a href="{{ download_link }}">Download Processed File</a>
+        <a href="{{ download_link }}">Download Processed Segmented File</a>
 	</div>
 
 	<div id="container"></div>
