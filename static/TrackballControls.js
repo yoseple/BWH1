@@ -88,7 +88,7 @@ THREE.TrackballControls = function ( object, domElement ) {
 	this.handleResize = function () {
 
 		var box = this.domElement.getBoundingClientRect();
-		// adjustments come from similar code in the jquery offset() function
+		// adjustments come from similar code in the jquery offset() functions
 		var d = this.domElement.ownerDocument.documentElement;
 		this.screen.left = box.left + window.pageXOffset - d.clientLeft;
 		this.screen.top = box.top + window.pageYOffset - d.clientTop;
