@@ -26,13 +26,18 @@ python3 server.py
 
 ## How it works and how to use:
 1. Upload NIFTI file of ct scan
+![alt text](https://github.com/yoseple/BWH1/blob/main/screenshots/upload.png "Upload")
 2. Segmentation Process (Totalsegmentator vertebrae_body subtask) 
+![alt text](https://github.com/yoseple/BWH1/blob/main/screenshots/loading.png "Loading")
 3. Download the NIFTI file of segmented file
+![alt text](https://github.com/yoseple/BWH1/blob/main/screenshots/download.png "Download")
 4. Upload to NIFTI -> .OBJ conversion (Uses marching algo)
 5. Can download the .obj file or upload to the THREE.JS viewer
 6. THREE.JS viewer shows the kinematics of the spine.
+![alt text](https://github.com/yoseple/BWH1/blob/main/screenshots/3d.png "Three.js")
 
-![alt text](https://github.com/yoseple/BWH1/blob/main/screenshots/upload.png "Upload")
+
+
 
    
 
