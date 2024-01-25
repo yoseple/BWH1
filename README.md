@@ -30,7 +30,11 @@ python3 server.py
 3. Download the NIFTI file of segmented file
 4. Upload to NIFTI -> .OBJ conversion (Uses marching algo)
 5. Can download the .obj file or upload to the THREE.JS viewer
-6. THREE.JS viewer shows the kinematics of the spine. 
+6. THREE.JS viewer shows the kinematics of the spine.
+
+![alt text](https://github.com/yoseple/BWH1/blob/main/screenshots/upload.png "Upload")
+
+   
 
 ```
  Tech used: C, THREE.JS, HTML&CSS, TotalSegmentator, IVDNET, FLASK, PYTHON
