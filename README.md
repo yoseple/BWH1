@@ -44,7 +44,8 @@ python3 server.py
 ```
  Tech used: C, THREE.JS, HTML&CSS, TotalSegmentator, IVDNET, FLASK, PYTHON
 ```
-
+## Prototype #1:
+https://yoseple.itch.io/bwh1-updated2
 
 
 
